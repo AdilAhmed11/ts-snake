@@ -1,13 +1,32 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snake</title>
+  <link rel="stylesheet" href="styles.scss">
+</head>
+
+<body>
+  <div class="container">
+    <div class="title-details">
+      <h1>Snake</h1>
+    </div>
+    <div class="score-details">
+      <span id="score">Score: 0</span>
+      <span id="highScore">High Score: 22</span>
+    </div>
+    <div class="game-area"></div>
+    <div class="controls">
+      <button id="up">↑</button>
+      <button id="left">←</button>
+      <button id="right">→</button>
+      <button id="down">↓</button>
+    </div>
+    <button id="restart" class="restart-btn">Restart</button>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
 </html>
