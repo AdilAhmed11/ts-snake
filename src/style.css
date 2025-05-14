@@ -2,7 +2,6 @@
 
 * {
   font-family: 'Roboto', sans-serif;
-  /* Default font for body */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -19,7 +18,6 @@ body {
 
 .container {
   background: #1d4ed8;
-  /* Modern blue */
   width: 65vmin;
   height: 70vmin;
   display: flex;
@@ -36,7 +34,6 @@ body {
   align-items: center;
   padding: 10px;
   font-family: 'Press Start 2P', cursive;
-  /* Retro title font */
   font-size: 1.5rem;
   letter-spacing: 2px;
   text-shadow: 1px 1px 2px black;
@@ -70,7 +67,6 @@ body {
 
 .controls {
   display: none;
-  /* Hidden by default */
   margin-top: 10px;
   display: grid;
   grid-template-areas:
@@ -151,7 +147,6 @@ body {
     font-size: 0.9rem;
   }
 
-  /* Show controls in mobile mode only */
   .controls {
     display: grid;
   }
